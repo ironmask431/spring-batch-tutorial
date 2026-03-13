@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.3'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.batch'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // ✅ Spring Batch 핵심 (spring-batch-core, spring-batch-infrastructure 포함)
+    implementation 'org.springframework.boot:spring-boot-starter-batch'
+
+    // ✅ JPA (EntityManagerFactory, Repository 등)
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // ✅ PostgreSQL 드라이버
+    runtimeOnly 'org.postgresql:postgresql'
+
+    // ✅ Lombok (Boilerplate 코드 제거)
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // ✅ 테스트
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.batch:spring-batch-test'
+    testCompileOnly 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+    }
+}

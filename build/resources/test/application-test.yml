@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/batch_tutorial
+    username: root
+    password: 1234
+
+  sql:
+    init:
+      mode: always
+
+  batch:
+    job:
+      enabled: false
+
+logging:
+  level:
+    org.springframework.batch: DEBUG
+    com.batch.tutorial: DEBUG

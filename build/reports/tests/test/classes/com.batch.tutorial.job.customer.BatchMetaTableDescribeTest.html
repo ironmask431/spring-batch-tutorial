@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BatchMetaTableDescribeTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BatchMetaTableDescribeTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.batch.tutorial.job.customer.html">com.batch.tutorial.job.customer</a> &gt; BatchMetaTableDescribeTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.576s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">메타테이블_전체_컬럼_조회()</td>
+<td class="success">0.576s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:46:57.237 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.batch.tutorial.job.customer.BatchMetaTableDescribeTest]: BatchMetaTableDescribeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:46:57.302 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.batch.tutorial.TutorialApplication for test class com.batch.tutorial.job.customer.BatchMetaTableDescribeTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-03-06T17:46:57.514+09:00  INFO 63837 --- [    Test worker] c.b.t.j.c.BatchMetaTableDescribeTest     : Starting BatchMetaTableDescribeTest using Java 17.0.17 with PID 63837 (started by kevin.lee in /Users/kevin.lee/IdeaProjects/spring-batch-tutorial)
+2026-03-06T17:46:57.515+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.BatchMetaTableDescribeTest     : Running with Spring Boot v3.2.3, Spring v6.1.4
+2026-03-06T17:46:57.515+09:00  INFO 63837 --- [    Test worker] c.b.t.j.c.BatchMetaTableDescribeTest     : The following 1 profile is active: &quot;test&quot;
+2026-03-06T17:46:57.864+09:00  INFO 63837 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T17:46:57.878+09:00  INFO 63837 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2026-03-06T17:46:58.025+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.038+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.039+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.040+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'jdbcConnectionDetails' of type [org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.058+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.068+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.JpaProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.069+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.074+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.077+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'hikariPoolDataSourceMetadataProvider' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$Lambda$822/0x000000700137eb08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.082+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.085+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.087+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionExecutionListeners' of type [org.springframework.boot.autoconfigure.transaction.ExecutionListenersTransactionManagerCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.089+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.090+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.105+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'jpaVendorAdapter' of type [org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.107+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactoryBuilder' of type [org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.115+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'persistenceManagedTypes' of type [org.springframework.orm.jpa.persistenceunit.SimplePersistenceManagedTypes] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:58.141+09:00  INFO 63837 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T17:46:58.184+09:00  INFO 63837 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-06T17:46:58.204+09:00  INFO 63837 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T17:46:58.403+09:00  INFO 63837 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T17:46:58.430+09:00  INFO 63837 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T17:46:58.607+09:00  INFO 63837 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f758e4f
+2026-03-06T17:46:58.610+09:00  INFO 63837 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T17:46:58.643+09:00  WARN 63837 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T17:46:59.488+09:00  INFO 63837 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T17:46:59.492+09:00  INFO 63837 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T17:46:59.501+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:59.506+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [jdk.proxy3.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:59.514+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.orm.jpa.JpaTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:59.523+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.batch-org.springframework.boot.autoconfigure.batch.BatchProperties' of type [org.springframework.boot.autoconfigure.batch.BatchProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-03-06T17:46:59.536+09:00  WARN 63837 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [jobRegistryBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-03-06T17:46:59.738+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.c.s.JobRegistryBeanPostProcessor : Registering job: customerCleansingJob
+2026-03-06T17:47:00.081+09:00  INFO 63837 --- [    Test worker] c.b.t.j.c.BatchMetaTableDescribeTest     : Started BatchMetaTableDescribeTest in 2.719 seconds (process running for 3.461)
+2026-03-06T17:47:00.436+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL update [DELETE FROM customers_processed]
+2026-03-06T17:47:00.445+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL update [UPDATE customers SET status = 'PENDING']
+2026-03-06T17:47:00.462+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT DISTINCT JOB_NAME
+FROM BATCH_JOB_INSTANCE
+ORDER BY JOB_NAME
+]
+2026-03-06T17:47:00.468+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.469+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_INSTANCE_ID, JOB_NAME
+FROM BATCH_JOB_INSTANCE
+WHERE JOB_NAME LIKE ? ORDER BY JOB_INSTANCE_ID DESC
+]
+2026-03-06T17:47:00.474+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.474+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_EXECUTION_ID, START_TIME, END_TIME, STATUS, EXIT_CODE, EXIT_MESSAGE, CREATE_TIME, LAST_UPDATED, VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_INSTANCE_ID = ?
+ORDER BY JOB_EXECUTION_ID DESC
+]
+2026-03-06T17:47:00.476+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.476+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_EXECUTION_ID, PARAMETER_NAME, PARAMETER_TYPE, PARAMETER_VALUE, IDENTIFYING
+FROM BATCH_JOB_EXECUTION_PARAMS
+WHERE JOB_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.478+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.478+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT STEP_EXECUTION_ID, STEP_NAME, START_TIME, END_TIME, STATUS, COMMIT_COUNT, READ_COUNT, FILTER_COUNT, WRITE_COUNT, EXIT_CODE, EXIT_MESSAGE, READ_SKIP_COUNT, WRITE_SKIP_COUNT, PROCESS_SKIP_COUNT, ROLLBACK_COUNT, LAST_UPDATED, VERSION, CREATE_TIME
+FROM BATCH_STEP_EXECUTION
+WHERE JOB_EXECUTION_ID = ?
+ ORDER BY STEP_EXECUTION_ID]
+2026-03-06T17:47:00.481+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.481+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [DELETE FROM BATCH_JOB_EXECUTION_CONTEXT
+WHERE JOB_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.483+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.483+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [DELETE FROM BATCH_JOB_EXECUTION_PARAMS
+WHERE JOB_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.485+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.485+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [DELETE FROM BATCH_STEP_EXECUTION_CONTEXT
+WHERE STEP_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.486+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.487+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [DELETE FROM BATCH_STEP_EXECUTION
+WHERE STEP_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.489+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.489+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [DELETE FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.492+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.492+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_EXECUTION_ID, START_TIME, END_TIME, STATUS, EXIT_CODE, EXIT_MESSAGE, CREATE_TIME, LAST_UPDATED, VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_INSTANCE_ID = ?
+ORDER BY JOB_EXECUTION_ID DESC
+]
+2026-03-06T17:47:00.493+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.493+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [DELETE FROM BATCH_JOB_INSTANCE
+WHERE JOB_INSTANCE_ID = ?
+]
+2026-03-06T17:47:00.495+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.495+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_INSTANCE_ID, JOB_NAME
+FROM BATCH_JOB_INSTANCE
+WHERE JOB_NAME LIKE ? ORDER BY JOB_INSTANCE_ID DESC
+]
+2026-03-06T17:47:00.500+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.500+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_INSTANCE_ID, JOB_NAME
+FROM BATCH_JOB_INSTANCE
+WHERE JOB_NAME = ?
+ and JOB_KEY = ?]
+2026-03-06T17:47:00.512+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.512+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_INSTANCE_ID, JOB_NAME
+FROM BATCH_JOB_INSTANCE
+WHERE JOB_NAME = ?
+ and JOB_KEY = ?]
+2026-03-06T17:47:00.516+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.516+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT JOB_INSTANCE_ID, JOB_NAME
+FROM BATCH_JOB_INSTANCE
+WHERE JOB_NAME = ?
+ and JOB_KEY = ?]
+2026-03-06T17:47:00.520+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.521+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO BATCH_JOB_INSTANCE(JOB_INSTANCE_ID, JOB_NAME, JOB_KEY, VERSION)
+	VALUES (?, ?, ?, ?)
+]
+2026-03-06T17:47:00.522+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.522+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO BATCH_JOB_EXECUTION(JOB_EXECUTION_ID, JOB_INSTANCE_ID, START_TIME, END_TIME, STATUS, EXIT_CODE, EXIT_MESSAGE, VERSION, CREATE_TIME, LAST_UPDATED)
+	VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+]
+2026-03-06T17:47:00.525+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL batch update [INSERT INTO BATCH_JOB_EXECUTION_PARAMS(JOB_EXECUTION_ID, PARAMETER_NAME, PARAMETER_TYPE, PARAMETER_VALUE, IDENTIFYING)
+	VALUES (?, ?, ?, ?, ?)
+] with a batch size of 100
+2026-03-06T17:47:00.525+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO BATCH_JOB_EXECUTION_PARAMS(JOB_EXECUTION_ID, PARAMETER_NAME, PARAMETER_TYPE, PARAMETER_VALUE, IDENTIFYING)
+	VALUES (?, ?, ?, ?, ?)
+]
+2026-03-06T17:47:00.528+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.528+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO BATCH_JOB_EXECUTION_CONTEXT (SHORT_CONTEXT, SERIALIZED_CONTEXT, JOB_EXECUTION_ID)
+	VALUES(?, ?, ?)
+]
+2026-03-06T17:47:00.531+09:00  INFO 63837 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=customerCleansingJob]] launched with the following parameters: [{'random':'{value=8894287822539719419, type=class java.lang.Long, identifying=true}'}]
+2026-03-06T17:47:00.531+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.job.AbstractJob           : Job execution starting: JobExecution: id=11, version=0, startTime=null, endTime=null, lastUpdated=2026-03-06T17:47:00.522034, status=STARTING, exitStatus=exitCode=UNKNOWN;exitDescription=, job=[JobInstance: id=11, version=0, Job=[customerCleansingJob]], jobParameters=[{'random':'{value=8894287822539719419, type=class java.lang.Long, identifying=true}'}]
+2026-03-06T17:47:00.536+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.536+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID=?
+]
+2026-03-06T17:47:00.538+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.538+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT COUNT(*)
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.539+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.539+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_JOB_EXECUTION
+SET START_TIME = ?, END_TIME = ?,  STATUS = ?, EXIT_CODE = ?, EXIT_MESSAGE = ?, VERSION = ?, CREATE_TIME = ?, LAST_UPDATED = ?
+WHERE JOB_EXECUTION_ID = ? AND VERSION = ?
+]
+2026-03-06T17:47:00.541+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      : ============================================================
+2026-03-06T17:47:00.541+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      : ▶ JOB START
+2026-03-06T17:47:00.541+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :   Job Name  : customerCleansingJob
+2026-03-06T17:47:00.541+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :   Job ID    : 11
+2026-03-06T17:47:00.541+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :   Parameters: {'random':'{value=8894287822539719419, type=class java.lang.Long, identifying=true}'}
+2026-03-06T17:47:00.541+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      : ============================================================
+2026-03-06T17:47:00.542+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.542+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT SE.STEP_EXECUTION_ID, SE.STEP_NAME, SE.START_TIME, SE.END_TIME, SE.STATUS, SE.COMMIT_COUNT, SE.READ_COUNT, SE.FILTER_COUNT, SE.WRITE_COUNT, SE.EXIT_CODE, SE.EXIT_MESSAGE, SE.READ_SKIP_COUNT, SE.WRITE_SKIP_COUNT, SE.PROCESS_SKIP_COUNT, SE.ROLLBACK_COUNT, SE.LAST_UPDATED, SE.VERSION, SE.CREATE_TIME, JE.JOB_EXECUTION_ID, JE.START_TIME, JE.END_TIME, JE.STATUS, JE.EXIT_CODE, JE.EXIT_MESSAGE, JE.CREATE_TIME, JE.LAST_UPDATED, JE.VERSION
+FROM BATCH_JOB_EXECUTION JE
+	JOIN BATCH_STEP_EXECUTION SE ON SE.JOB_EXECUTION_ID = JE.JOB_EXECUTION_ID
+WHERE JE.JOB_INSTANCE_ID = ? AND SE.STEP_NAME = ?
+ORDER BY SE.CREATE_TIME DESC, SE.STEP_EXECUTION_ID DESC
+]
+2026-03-06T17:47:00.545+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.545+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT COUNT(*)
+FROM BATCH_JOB_EXECUTION JE
+	JOIN BATCH_STEP_EXECUTION SE ON SE.JOB_EXECUTION_ID = JE.JOB_EXECUTION_ID
+WHERE JE.JOB_INSTANCE_ID = ? AND SE.STEP_NAME = ?
+]
+2026-03-06T17:47:00.548+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.549+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO BATCH_STEP_EXECUTION(STEP_EXECUTION_ID, VERSION, STEP_NAME, JOB_EXECUTION_ID, START_TIME, END_TIME, STATUS, COMMIT_COUNT, READ_COUNT, FILTER_COUNT, WRITE_COUNT, EXIT_CODE, EXIT_MESSAGE, READ_SKIP_COUNT, WRITE_SKIP_COUNT, PROCESS_SKIP_COUNT, ROLLBACK_COUNT, LAST_UPDATED, CREATE_TIME)
+	VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+]
+2026-03-06T17:47:00.550+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.550+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO BATCH_STEP_EXECUTION_CONTEXT (SHORT_CONTEXT, SERIALIZED_CONTEXT, STEP_EXECUTION_ID)
+	VALUES(?, ?, ?)
+]
+2026-03-06T17:47:00.552+09:00  INFO 63837 --- [    Test worker] o.s.batch.core.job.SimpleStepHandler     : Executing step: [customerCleansingStep]
+2026-03-06T17:47:00.553+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Executing: id=11
+2026-03-06T17:47:00.553+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.553+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION
+SET START_TIME = ?, END_TIME = ?, STATUS = ?, COMMIT_COUNT = ?, READ_COUNT = ?, FILTER_COUNT = ?, WRITE_COUNT = ?, EXIT_CODE = ?, EXIT_MESSAGE = ?, VERSION = ?, READ_SKIP_COUNT = ?, PROCESS_SKIP_COUNT = ?, WRITE_SKIP_COUNT = ?, ROLLBACK_COUNT = ?, LAST_UPDATED = ?
+WHERE STEP_EXECUTION_ID = ? AND VERSION = ?
+]
+2026-03-06T17:47:00.555+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.555+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID=?
+]
+2026-03-06T17:47:00.561+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.562+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION_CONTEXT
+SET SHORT_CONTEXT = ?, SERIALIZED_CONTEXT = ?
+WHERE STEP_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.571+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Starting repeat context.
+2026-03-06T17:47:00.571+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=1
+2026-03-06T17:47:00.571+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@2dbf8cfc
+2026-03-06T17:47:00.571+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Chunk execution starting: queue size=0
+2026-03-06T17:47:00.572+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Starting repeat context.
+2026-03-06T17:47:00.572+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=1
+2026-03-06T17:47:00.574+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=2
+2026-03-06T17:47:00.574+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=3
+2026-03-06T17:47:00.574+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=4
+2026-03-06T17:47:00.574+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=5
+2026-03-06T17:47:00.574+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat is complete according to policy and result value.
+2026-03-06T17:47:00.575+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=1, name=  홍길동  
+2026-03-06T17:47:00.576+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=2, name=김철수
+2026-03-06T17:47:00.576+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=3, name=최수진
+2026-03-06T17:47:00.576+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=4, name=정도현
+2026-03-06T17:47:00.576+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=5, name=강민서
+2026-03-06T17:47:00.578+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.i.FaultTolerantChunkProcessor  : Attempting to write: [items=[Customer(id=1, name=  홍길동  , email=hong@EXAMPLE.COM, phone=010-1234-5678, age=30, status=PENDING, createdAt=2026-03-06T12:40:45.068334), Customer(id=2, name=김철수, email=kim.cs@example.com, phone=011 9876 5432, age=25, status=PENDING, createdAt=2026-03-06T12:40:45.068334), Customer(id=3, name=최수진, email=choi@example.com, phone=010-3333-4444, age=28, status=PENDING, createdAt=2026-03-06T12:40:45.068334), Customer(id=4, name=정도현, email=jung@example.com, phone=010-6666-7777, age=32, status=PENDING, createdAt=2026-03-06T12:40:45.068334), Customer(id=5, name=강민서, email=kang@example.com, phone=010-8888-9999, age=27, status=PENDING, createdAt=2026-03-06T12:40:45.068334)], skips=[]]
+2026-03-06T17:47:00.579+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL batch update [INSERT INTO customers_processed (customer_id, name, email, phone, age, processed_at)
+VALUES (?, ?, ?, ?, ?, ?)
+] with a batch size of 5
+2026-03-06T17:47:00.579+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO customers_processed (customer_id, name, email, phone, age, processed_at)
+VALUES (?, ?, ?, ?, ?, ?)
+]
+2026-03-06T17:47:00.584+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.584+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE customers SET status = 'PROCESSED' WHERE id IN (?, ?, ?, ?, ?)]
+2026-03-06T17:47:00.585+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.writer.CustomerItemWriter      : ✅ 5건 처리 완료
+2026-03-06T17:47:00.585+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.step.item.ChunkOrientedTasklet   : Inputs not busy, ended: false
+2026-03-06T17:47:00.587+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Applying contribution: [StepContribution: read=5, written=5, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+2026-03-06T17:47:00.587+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.587+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION_CONTEXT
+SET SHORT_CONTEXT = ?, SERIALIZED_CONTEXT = ?
+WHERE STEP_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.588+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Saving step execution before commit: StepExecution: id=11, version=1, name=customerCleansingStep, status=STARTED, exitStatus=EXECUTING, readCount=5, filterCount=0, writeCount=5 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2026-03-06T17:47:00.588+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.588+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION
+SET START_TIME = ?, END_TIME = ?, STATUS = ?, COMMIT_COUNT = ?, READ_COUNT = ?, FILTER_COUNT = ?, WRITE_COUNT = ?, EXIT_CODE = ?, EXIT_MESSAGE = ?, VERSION = ?, READ_SKIP_COUNT = ?, PROCESS_SKIP_COUNT = ?, WRITE_SKIP_COUNT = ?, ROLLBACK_COUNT = ?, LAST_UPDATED = ?
+WHERE STEP_EXECUTION_ID = ? AND VERSION = ?
+]
+2026-03-06T17:47:00.589+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.589+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID=?
+]
+2026-03-06T17:47:00.592+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=2
+2026-03-06T17:47:00.592+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@2dbf8cfc
+2026-03-06T17:47:00.592+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Chunk execution starting: queue size=0
+2026-03-06T17:47:00.592+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Starting repeat context.
+2026-03-06T17:47:00.592+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=1
+2026-03-06T17:47:00.592+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=2
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=3
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=4
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=5
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat is complete according to policy and result value.
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=6, name=조예린
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=7, name=윤서준
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=8, name=임지아
+2026-03-06T17:47:00.593+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=9, name=이영희
+2026-03-06T17:47:00.594+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Applying contribution: [StepContribution: read=5, written=0, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+2026-03-06T17:47:00.594+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Rollback for Exception: com.batch.tutorial.common.exception.InvalidCustomerException: 이메일 형식이 올바르지 않습니다. customerId=9, email=INVALID_EMAIL
+2026-03-06T17:47:00.595+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Handling exception: com.batch.tutorial.common.exception.InvalidCustomerException, caused by: com.batch.tutorial.common.exception.InvalidCustomerException: 이메일 형식이 올바르지 않습니다. customerId=9, email=INVALID_EMAIL
+2026-03-06T17:47:00.595+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.i.SimpleRetryExceptionHandler  : Handled non-fatal exception
+
+com.batch.tutorial.common.exception.InvalidCustomerException: 이메일 형식이 올바르지 않습니다. customerId=9, email=INVALID_EMAIL
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.processEmail(CustomerItemProcessor.java:72) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:45) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:26) ~[main/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:146) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.lambda$transform$0(FaultTolerantChunkProcessor.java:228) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:335) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:257) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.batch.core.step.item.BatchRetryTemplate.execute(BatchRetryTemplate.java:216) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.transform(FaultTolerantChunkProcessor.java:291) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:220) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:388) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:312) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:255) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:369) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:140) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:240) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:229) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:418) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:132) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:317) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:157) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:148) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:59) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:146) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:136) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at com.batch.tutorial.job.customer.BatchMetaTableDescribeTest.setUp(BatchMetaTableDescribeTest.java:34) ~[test/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:128) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:78) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:521) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$23(ClassBasedTestDescriptor.java:506) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$3(TestMethodTestDescriptor.java:175) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$6(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:172) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[na:na]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) ~[na:na]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) ~[na:na]
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60) ~[na:na]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65) ~[na:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
+
+2026-03-06T17:47:00.599+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=3
+2026-03-06T17:47:00.599+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@2dbf8cfc
+2026-03-06T17:47:00.599+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Chunk execution starting: queue size=0
+2026-03-06T17:47:00.600+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=6, name=조예린
+2026-03-06T17:47:00.600+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=7, name=윤서준
+2026-03-06T17:47:00.600+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=8, name=임지아
+2026-03-06T17:47:00.602+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.i.FaultTolerantChunkProcessor  : Skipping after failed process
+
+com.batch.tutorial.common.exception.InvalidCustomerException: 이메일 형식이 올바르지 않습니다. customerId=9, email=INVALID_EMAIL
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.processEmail(CustomerItemProcessor.java:72) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:45) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:26) ~[main/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:146) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.lambda$transform$0(FaultTolerantChunkProcessor.java:228) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:335) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:257) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.batch.core.step.item.BatchRetryTemplate.execute(BatchRetryTemplate.java:216) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.transform(FaultTolerantChunkProcessor.java:291) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:220) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:388) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:312) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:255) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:369) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:140) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:240) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:229) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:418) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:132) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:317) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:157) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:148) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:59) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:146) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:136) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at com.batch.tutorial.job.customer.BatchMetaTableDescribeTest.setUp(BatchMetaTableDescribeTest.java:34) ~[test/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:128) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:78) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:521) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$23(ClassBasedTestDescriptor.java:506) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$3(TestMethodTestDescriptor.java:175) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$6(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:172) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[na:na]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) ~[na:na]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) ~[na:na]
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60) ~[na:na]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65) ~[na:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
+
+2026-03-06T17:47:00.606+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=10, name=박민준
+2026-03-06T17:47:00.607+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Applying contribution: [StepContribution: read=0, written=0, filtered=0, readSkips=0, writeSkips=0, processSkips=1, exitStatus=EXECUTING]
+2026-03-06T17:47:00.607+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Rollback for Exception: com.batch.tutorial.common.exception.InvalidCustomerException: 나이가 유효하지 않습니다. customerId=10, age=-5
+2026-03-06T17:47:00.608+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Handling exception: com.batch.tutorial.common.exception.InvalidCustomerException, caused by: com.batch.tutorial.common.exception.InvalidCustomerException: 나이가 유효하지 않습니다. customerId=10, age=-5
+2026-03-06T17:47:00.608+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.i.SimpleRetryExceptionHandler  : Handled non-fatal exception
+
+com.batch.tutorial.common.exception.InvalidCustomerException: 나이가 유효하지 않습니다. customerId=10, age=-5
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.validateAge(CustomerItemProcessor.java:87) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:51) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:26) ~[main/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:146) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.lambda$transform$0(FaultTolerantChunkProcessor.java:228) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:335) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:257) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.batch.core.step.item.BatchRetryTemplate.execute(BatchRetryTemplate.java:216) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.transform(FaultTolerantChunkProcessor.java:291) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:220) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:388) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:312) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:255) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:369) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:140) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:240) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:229) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:418) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:132) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:317) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:157) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:148) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:59) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:146) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:136) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at com.batch.tutorial.job.customer.BatchMetaTableDescribeTest.setUp(BatchMetaTableDescribeTest.java:34) ~[test/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:128) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:78) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:521) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$23(ClassBasedTestDescriptor.java:506) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$3(TestMethodTestDescriptor.java:175) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$6(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:172) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[na:na]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) ~[na:na]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) ~[na:na]
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60) ~[na:na]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65) ~[na:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
+
+2026-03-06T17:47:00.611+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=4
+2026-03-06T17:47:00.611+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@2dbf8cfc
+2026-03-06T17:47:00.611+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Chunk execution starting: queue size=0
+2026-03-06T17:47:00.612+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=6, name=조예린
+2026-03-06T17:47:00.612+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=7, name=윤서준
+2026-03-06T17:47:00.612+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.p.CustomerItemProcessor        : Processing customer: id=8, name=임지아
+2026-03-06T17:47:00.612+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.i.FaultTolerantChunkProcessor  : Skipping after failed process
+
+com.batch.tutorial.common.exception.InvalidCustomerException: 나이가 유효하지 않습니다. customerId=10, age=-5
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.validateAge(CustomerItemProcessor.java:87) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:51) ~[main/:na]
+	at com.batch.tutorial.job.customer.processor.CustomerItemProcessor.process(CustomerItemProcessor.java:26) ~[main/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:146) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.lambda$transform$0(FaultTolerantChunkProcessor.java:228) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:335) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:257) ~[spring-retry-2.0.5.jar:na]
+	at org.springframework.batch.core.step.item.BatchRetryTemplate.execute(BatchRetryTemplate.java:216) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.FaultTolerantChunkProcessor.transform(FaultTolerantChunkProcessor.java:291) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:220) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:388) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:312) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:255) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:369) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:206) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:140) ~[spring-batch-infrastructure-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:240) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:229) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:153) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:418) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:132) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:317) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:157) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:148) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.core.launch.support.TaskExecutorJobLauncher.run(TaskExecutorJobLauncher.java:59) ~[spring-batch-core-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:146) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at org.springframework.batch.test.JobLauncherTestUtils.launchJob(JobLauncherTestUtils.java:136) ~[spring-batch-test-5.1.1.jar:5.1.1]
+	at com.batch.tutorial.job.customer.BatchMetaTableDescribeTest.setUp(BatchMetaTableDescribeTest.java:34) ~[test/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:128) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:78) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:521) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$23(ClassBasedTestDescriptor.java:506) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$3(TestMethodTestDescriptor.java:175) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$6(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:203) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:172) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[na:na]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) ~[na:na]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) ~[na:na]
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60) ~[na:na]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65) ~[na:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
+
+2026-03-06T17:47:00.617+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.i.FaultTolerantChunkProcessor  : Attempting to write: [items=[Customer(id=6, name=조예린, email=jo@example.com, phone=010-2222-3333, age=31, status=PENDING, createdAt=2026-03-06T12:40:45.068334), Customer(id=7, name=윤서준, email=yoon@example.com, phone=010-4444-5555, age=29, status=PENDING, createdAt=2026-03-06T12:40:45.068334), Customer(id=8, name=임지아, email=lim@example.com, phone=010-7777-8888, age=26, status=PENDING, createdAt=2026-03-06T12:40:45.068334)], skips=[[exception=com.batch.tutorial.common.exception.InvalidCustomerException: 이메일 형식이 올바르지 않습니다. customerId=9, email=INVALID_EMAIL, item=Customer(id=9, name=이영희, email=INVALID_EMAIL, phone=010-5555-5555, age=35, status=PENDING, createdAt=2026-03-06T12:40:45.068334)], [exception=com.batch.tutorial.common.exception.InvalidCustomerException: 나이가 유효하지 않습니다. customerId=10, age=-5, item=Customer(id=10, name=박민준, email=park@example.com, phone=010-1111-2222, age=-5, status=PENDING, createdAt=2026-03-06T12:40:45.068334)]]]
+2026-03-06T17:47:00.617+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL batch update [INSERT INTO customers_processed (customer_id, name, email, phone, age, processed_at)
+VALUES (?, ?, ?, ?, ?, ?)
+] with a batch size of 3
+2026-03-06T17:47:00.618+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [INSERT INTO customers_processed (customer_id, name, email, phone, age, processed_at)
+VALUES (?, ?, ?, ?, ?, ?)
+]
+2026-03-06T17:47:00.622+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.622+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE customers SET status = 'PROCESSED' WHERE id IN (?, ?, ?)]
+2026-03-06T17:47:00.626+09:00 DEBUG 63837 --- [    Test worker] c.b.t.j.c.writer.CustomerItemWriter      : ✅ 3건 처리 완료
+2026-03-06T17:47:00.628+09:00  WARN 63837 --- [    Test worker] c.b.t.j.c.listener.CustomerSkipListener  : ⚠ [SKIP-PROCESS] 처리 단계에서 건너뜀. customerId=9, 원인: 이메일 형식이 올바르지 않습니다. customerId=9, email=INVALID_EMAIL
+2026-03-06T17:47:00.628+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.628+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE customers SET status = 'SKIPPED' WHERE id = ?]
+2026-03-06T17:47:00.630+09:00  WARN 63837 --- [    Test worker] c.b.t.j.c.listener.CustomerSkipListener  : ⚠ [SKIP-PROCESS] 처리 단계에서 건너뜀. customerId=10, 원인: 나이가 유효하지 않습니다. customerId=10, age=-5
+2026-03-06T17:47:00.631+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.631+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE customers SET status = 'SKIPPED' WHERE id = ?]
+2026-03-06T17:47:00.632+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.step.item.ChunkOrientedTasklet   : Inputs not busy, ended: false
+2026-03-06T17:47:00.632+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Applying contribution: [StepContribution: read=0, written=3, filtered=0, readSkips=0, writeSkips=0, processSkips=1, exitStatus=EXECUTING]
+2026-03-06T17:47:00.632+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.633+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION_CONTEXT
+SET SHORT_CONTEXT = ?, SERIALIZED_CONTEXT = ?
+WHERE STEP_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.633+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Saving step execution before commit: StepExecution: id=11, version=2, name=customerCleansingStep, status=STARTED, exitStatus=EXECUTING, readCount=10, filterCount=0, writeCount=8 readSkipCount=0, writeSkipCount=0, processSkipCount=2, commitCount=2, rollbackCount=2, exitDescription=
+2026-03-06T17:47:00.633+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.633+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION
+SET START_TIME = ?, END_TIME = ?, STATUS = ?, COMMIT_COUNT = ?, READ_COUNT = ?, FILTER_COUNT = ?, WRITE_COUNT = ?, EXIT_CODE = ?, EXIT_MESSAGE = ?, VERSION = ?, READ_SKIP_COUNT = ?, PROCESS_SKIP_COUNT = ?, WRITE_SKIP_COUNT = ?, ROLLBACK_COUNT = ?, LAST_UPDATED = ?
+WHERE STEP_EXECUTION_ID = ? AND VERSION = ?
+]
+2026-03-06T17:47:00.635+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.635+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID=?
+]
+2026-03-06T17:47:00.637+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=5
+2026-03-06T17:47:00.637+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Preparing chunk execution for StepContext: org.springframework.batch.core.scope.context.StepContext@2dbf8cfc
+2026-03-06T17:47:00.637+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.s.c.StepContextRepeatCallback    : Chunk execution starting: queue size=0
+2026-03-06T17:47:00.637+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Starting repeat context.
+2026-03-06T17:47:00.637+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat operation about to start at count=1
+2026-03-06T17:47:00.637+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat is complete according to policy and result value.
+2026-03-06T17:47:00.637+09:00 DEBUG 63837 --- [    Test worker] o.s.b.c.step.item.ChunkOrientedTasklet   : Inputs not busy, ended: true
+2026-03-06T17:47:00.638+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Applying contribution: [StepContribution: read=0, written=0, filtered=0, readSkips=0, writeSkips=0, processSkips=0, exitStatus=EXECUTING]
+2026-03-06T17:47:00.638+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.638+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION_CONTEXT
+SET SHORT_CONTEXT = ?, SERIALIZED_CONTEXT = ?
+WHERE STEP_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.639+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.tasklet.TaskletStep  : Saving step execution before commit: StepExecution: id=11, version=3, name=customerCleansingStep, status=STARTED, exitStatus=EXECUTING, readCount=10, filterCount=0, writeCount=8 readSkipCount=0, writeSkipCount=0, processSkipCount=2, commitCount=3, rollbackCount=2, exitDescription=
+2026-03-06T17:47:00.639+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.639+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION
+SET START_TIME = ?, END_TIME = ?, STATUS = ?, COMMIT_COUNT = ?, READ_COUNT = ?, FILTER_COUNT = ?, WRITE_COUNT = ?, EXIT_CODE = ?, EXIT_MESSAGE = ?, VERSION = ?, READ_SKIP_COUNT = ?, PROCESS_SKIP_COUNT = ?, WRITE_SKIP_COUNT = ?, ROLLBACK_COUNT = ?, LAST_UPDATED = ?
+WHERE STEP_EXECUTION_ID = ? AND VERSION = ?
+]
+2026-03-06T17:47:00.640+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.640+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID=?
+]
+2026-03-06T17:47:00.641+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.repeat.support.RepeatTemplate  : Repeat is complete according to policy and result value.
+2026-03-06T17:47:00.641+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step execution success: id=11
+2026-03-06T17:47:00.642+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.642+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION_CONTEXT
+SET SHORT_CONTEXT = ?, SERIALIZED_CONTEXT = ?
+WHERE STEP_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.644+09:00  INFO 63837 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step: [customerCleansingStep] executed in 90ms
+2026-03-06T17:47:00.644+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.644+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_STEP_EXECUTION
+SET START_TIME = ?, END_TIME = ?, STATUS = ?, COMMIT_COUNT = ?, READ_COUNT = ?, FILTER_COUNT = ?, WRITE_COUNT = ?, EXIT_CODE = ?, EXIT_MESSAGE = ?, VERSION = ?, READ_SKIP_COUNT = ?, PROCESS_SKIP_COUNT = ?, WRITE_SKIP_COUNT = ?, ROLLBACK_COUNT = ?, LAST_UPDATED = ?
+WHERE STEP_EXECUTION_ID = ? AND VERSION = ?
+]
+2026-03-06T17:47:00.645+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.645+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID=?
+]
+2026-03-06T17:47:00.648+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step execution complete: StepExecution: id=11, version=5, name=customerCleansingStep, status=COMPLETED, exitStatus=COMPLETED, readCount=10, filterCount=0, writeCount=8 readSkipCount=0, writeSkipCount=0, processSkipCount=2, commitCount=3, rollbackCount=2
+2026-03-06T17:47:00.648+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.648+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_JOB_EXECUTION_CONTEXT
+SET SHORT_CONTEXT = ?, SERIALIZED_CONTEXT = ?
+WHERE JOB_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.650+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.job.AbstractJob           : Upgrading JobExecution status: StepExecution: id=11, version=5, name=customerCleansingStep, status=COMPLETED, exitStatus=COMPLETED, readCount=10, filterCount=0, writeCount=8 readSkipCount=0, writeSkipCount=0, processSkipCount=2, commitCount=3, rollbackCount=2, exitDescription=
+2026-03-06T17:47:00.650+09:00 DEBUG 63837 --- [    Test worker] o.s.batch.core.job.AbstractJob           : Job execution complete: JobExecution: id=11, version=1, startTime=2026-03-06T17:47:00.535386, endTime=null, lastUpdated=2026-03-06T17:47:00.535651, status=COMPLETED, exitStatus=exitCode=COMPLETED;exitDescription=, job=[JobInstance: id=11, version=0, Job=[customerCleansingJob]], jobParameters=[{'random':'{value=8894287822539719419, type=class java.lang.Long, identifying=true}'}]
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      : ============================================================
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      : ■ JOB END
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :   Job Name  : customerCleansingJob
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :   Status    : COMPLETED
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :   Duration  : 115ms
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :   [Step: customerCleansingStep]
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :     Read    : 10
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :     Process : 8
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :     Write   : 8
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      :     Skip    : 2
+2026-03-06T17:47:00.651+09:00  INFO 63837 --- [    Test worker] c.b.t.c.listener.JobLoggingListener      : ============================================================
+2026-03-06T17:47:00.651+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.651+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT VERSION
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID=?
+]
+2026-03-06T17:47:00.652+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL query
+2026-03-06T17:47:00.652+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [SELECT COUNT(*)
+FROM BATCH_JOB_EXECUTION
+WHERE JOB_EXECUTION_ID = ?
+]
+2026-03-06T17:47:00.653+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL update
+2026-03-06T17:47:00.653+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing prepared SQL statement [UPDATE BATCH_JOB_EXECUTION
+SET START_TIME = ?, END_TIME = ?,  STATUS = ?, EXIT_CODE = ?, EXIT_MESSAGE = ?, VERSION = ?, CREATE_TIME = ?, LAST_UPDATED = ?
+WHERE JOB_EXECUTION_ID = ? AND VERSION = ?
+]
+2026-03-06T17:47:00.656+09:00  INFO 63837 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=customerCleansingJob]] completed with the following parameters: [{'random':'{value=8894287822539719419, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 115ms
+
+======================================================================
+  BATCH_JOB_INSTANCE
+======================================================================
+2026-03-06T17:47:00.657+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT * FROM BATCH_JOB_INSTANCE ORDER BY JOB_INSTANCE_ID DESC LIMIT 3]
+  job_instance_id               : 11
+  version                       : 0
+  job_name                      : customerCleansingJob
+  job_key                       : de6b5fa3001b4ec1f207e470349f1e2b
+  ------------------------------------------------------------
+
+======================================================================
+  BATCH_JOB_EXECUTION
+======================================================================
+2026-03-06T17:47:00.660+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT JOB_EXECUTION_ID, JOB_INSTANCE_ID, CREATE_TIME, START_TIME, END_TIME, STATUS, EXIT_CODE, EXIT_MESSAGE, LAST_UPDATED FROM BATCH_JOB_EXECUTION ORDER BY JOB_EXECUTION_ID DESC LIMIT 3]
+  job_execution_id              : 11
+  job_instance_id               : 11
+  create_time                   : 2026-03-06 17:47:00.522024
+  start_time                    : 2026-03-06 17:47:00.535386
+  end_time                      : 2026-03-06 17:47:00.651309
+  status                        : COMPLETED
+  exit_code                     : COMPLETED
+  exit_message                  : 
+  last_updated                  : 2026-03-06 17:47:00.651668
+  ------------------------------------------------------------
+
+======================================================================
+  BATCH_JOB_EXECUTION_PARAMS
+======================================================================
+2026-03-06T17:47:00.662+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT * FROM BATCH_JOB_EXECUTION_PARAMS ORDER BY JOB_EXECUTION_ID DESC LIMIT 5]
+  job_execution_id              : 11
+  parameter_name                : random
+  parameter_type                : java.lang.Long
+  parameter_value               : 8894287822539719419
+  identifying                   : Y
+  ------------------------------------------------------------
+
+======================================================================
+  BATCH_JOB_EXECUTION_CONTEXT
+======================================================================
+2026-03-06T17:47:00.664+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT JOB_EXECUTION_ID, SHORT_CONTEXT FROM BATCH_JOB_EXECUTION_CONTEXT ORDER BY JOB_EXECUTION_ID DESC LIMIT 2]
+  job_execution_id              : 11
+  short_context                 : rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAABdAANYmF0Y2gudmVyc2lvbnQABTUuMS4xeA==
+  ------------------------------------------------------------
+
+======================================================================
+  BATCH_STEP_EXECUTION
+======================================================================
+2026-03-06T17:47:00.666+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [    SELECT STEP_EXECUTION_ID, STEP_NAME, JOB_EXECUTION_ID,
+           START_TIME, END_TIME, STATUS,
+           COMMIT_COUNT, READ_COUNT, FILTER_COUNT,
+           WRITE_COUNT, READ_SKIP_COUNT, WRITE_SKIP_COUNT,
+           PROCESS_SKIP_COUNT, ROLLBACK_COUNT,
+           EXIT_CODE
+    FROM BATCH_STEP_EXECUTION
+    ORDER BY STEP_EXECUTION_ID DESC LIMIT 3
+]
+  step_execution_id             : 11
+  step_name                     : customerCleansingStep
+  job_execution_id              : 11
+  start_time                    : 2026-03-06 17:47:00.553067
+  end_time                      : 2026-03-06 17:47:00.644016
+  status                        : COMPLETED
+  commit_count                  : 3
+  read_count                    : 10
+  filter_count                  : 0
+  write_count                   : 8
+  read_skip_count               : 0
+  write_skip_count              : 0
+  process_skip_count            : 2
+  rollback_count                : 2
+  exit_code                     : COMPLETED
+  ------------------------------------------------------------
+
+======================================================================
+  BATCH_STEP_EXECUTION_CONTEXT
+======================================================================
+2026-03-06T17:47:00.668+09:00 DEBUG 63837 --- [    Test worker] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT STEP_EXECUTION_ID, SHORT_CONTEXT FROM BATCH_STEP_EXECUTION_CONTEXT ORDER BY STEP_EXECUTION_ID DESC LIMIT 2]
+  step_execution_id             : 11
+  short_context                 : rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAEdAAdY3VzdG9tZXJJdGVtUmVhZGVyLnJlYWQuY291bnRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAC3QAEWJhdGNoLnRhc2tsZXRUeXBldAA9b3JnLnNwcmluZ2ZyYW1ld29yay5iYXRjaC5jb3JlLnN0ZXAuaXRlbS5DaHVua09yaWVudGVkVGFza2xldHQADWJhdGNoLnZlcnNpb250AAU1LjEuMXQADmJhdGNoLnN0ZXBUeXBldAA3b3JnLnNwcmluZ2ZyYW1ld29yay5iYXRjaC5jb3JlLnN0ZXAudGFza2xldC5UYXNrbGV0U3RlcHg=
+  ------------------------------------------------------------
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.6</a> at 2026. 3. 6. 오후 5:47:00</p>
+</div>
+</div>
+</body>
+</html>
